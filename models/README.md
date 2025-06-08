@@ -1,6 +1,6 @@
-# GoUtilitaries
+# GoUtilities
 
-GoUtilitaries is a Go module that provides utility functions for making HTTP requests. It includes a simple `HttpClient` struct with methods for performing GET and POST requests.
+GoUtilities is a Go module that provides utility functions for making HTTP requests. It includes a simple `HttpClient` struct with methods for performing GET and POST requests.
 
 ## Features
 
@@ -13,7 +13,7 @@ GoUtilitaries is a Go module that provides utility functions for making HTTP req
 To use this module in your project, run:
 
 ```bash
-go get github.com/PedroH183/GoUtilitaries@latest
+go get github.com/PedroH183/GoUtilities@latest
 ```
 
 
@@ -23,7 +23,7 @@ go get github.com/PedroH183/GoUtilitaries@latest
 ### Import the Package
 
 ```go
-import "github.com/PedroH183/GoUtilitaries/models"
+import "github.com/PedroH183/GoUtilities/models"
 ```
 
 ### Example: GET Request
@@ -33,7 +33,7 @@ package main
 
 import (
 	"fmt"
-	"github.com/PedroH183/GoUtilitaries/models"
+	"github.com/PedroH183/GoUtilities/models"
 	"net/http"
 )
 
@@ -66,7 +66,7 @@ package main
 
 import (
 	"fmt"
-	"github.com/PedroH183/GoUtilitaries/models"
+	"github.com/PedroH183/GoUtilities/models"
 	"net/http"
 )
 
