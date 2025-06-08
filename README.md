@@ -1,5 +1,4 @@
 # GoUtilities
-# GoUtilities
 
 <img src="https://go.dev/images/gophers/pilot-bust.svg" alt="Go Logo" width="200"/>
 
