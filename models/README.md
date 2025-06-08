@@ -1,7 +1,3 @@
-# GoUtilities
-
-GoUtilities is a Go module that provides utility functions for making HTTP requests. It includes a simple `HttpClient` struct with methods for performing GET and POST requests.
-
 ## Features
 
 - **GET Requests**: Easily make HTTP GET requests with custom headers.
@@ -55,7 +51,7 @@ func main() {
 		return
 	}
 
-	fmt.Println("Response:", result)
+	fmt.Println("Response:", response)
 }
 ```
 
@@ -91,6 +87,6 @@ func main() {
 		return
 	}
 
-	fmt.Println("Response:", result)
+	fmt.Println("Response:", response)
 }
 ```
