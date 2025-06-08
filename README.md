@@ -3,7 +3,6 @@
 <img src="https://go.dev/images/gophers/pilot-bust.svg" alt="Go Logo" width="200"/>
 
 GoUtilities is a personal collection of reusable Go code designed to simplify common tasks and improve development efficiency. This project serves as a utility library for various use cases, such as HTTP requests, data processing, and more.
-GoUtilities is a personal collection of reusable Go code designed to simplify common tasks and improve development efficiency. This project serves as a utility library for various use cases, such as HTTP requests, data processing, and more.
 
 ## Features
 
