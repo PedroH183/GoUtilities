@@ -51,7 +51,7 @@ func main() {
 		return
 	}
 
-	fmt.Println("Response:", result)
+	fmt.Println("Response:", response)
 }
 ```
 
@@ -87,6 +87,6 @@ func main() {
 		return
 	}
 
-	fmt.Println("Response:", result)
+	fmt.Println("Response:", response)
 }
 ```
