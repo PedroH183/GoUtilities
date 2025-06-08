@@ -9,10 +9,10 @@ import (
 )
 
 type HttpClient struct {
-	client *http.Client
+	Client *http.Client
 }
 
-func (c *HttpClient) makeGetRequest(
+func (c *HttpClient) MakeGetRequest(
 	url string, headers map[string]string, target interface{}) error {
 
 	requestBuilder, err := http.NewRequest(http.MethodGet, url, nil)
@@ -23,7 +23,7 @@ func (c *HttpClient) makeGetRequest(
 	for key, value := range headers {
 		requestBuilder.Header.Set(key, value)
 	}
-	response, err := c.client.Do(requestBuilder)
+	response, err := c.Client.Do(requestBuilder)
 
 	if err != nil {
 		return err
@@ -37,7 +37,7 @@ func (c *HttpClient) makeGetRequest(
 	return fmt.Errorf("HTTP %d: %s", response.StatusCode, string(body))
 }
 
-func (c *HttpClient) makePostRequest(
+func (c *HttpClient) MakePostRequest(
 	url string, headers map[string]string, target interface{}, payload interface{}) error {
 
 	data, err := json.Marshal(payload)
@@ -52,7 +52,7 @@ func (c *HttpClient) makePostRequest(
 	for key, value := range headers {
 		requestBuilder.Header.Set(key, value)
 	}
-	response, err := c.client.Do(requestBuilder)
+	response, err := c.Client.Do(requestBuilder)
 
 	if err != nil {
 		return err
